@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--created by kyama id:700655620-->
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>kyama week 3 functions and events</title>
+		<script type="text/javascript">
+		
+			//variables
+			inputInterger = 0;
+			
+			function oddOrEven(){
+			//function for oddbutton click events
+			//get input from textbox
+			
+			var userInput = document.getElementById("inputTextbox").value;
+			if((!isNaN(userInput))&&(userInput!=0)&&(inputInterger=(parseInt(userInput)))){
+				//input is valid
+				if(inputInterger%2 == 0){
+					//it is an even number
+					oddPara.innerHTML=inputInterger+" is and even number.";
+				}else{
+					oddPara.innerHTML=inputInterger+" is and odd number.";
+				}//end if odd Even result
+			
+			}else{
+				//input is invalid
+				oddPara.innerHTML="Invalid input.refresh to try again";
+			}//end validation
+		
+			}//end function oddOrEven
+			function findFactors(){
+				//call previous function to validate and find oddEven
+				oddOrEven();
+				//validation succeed if inputInterger is nor 0
+				if(inputInterger != 0){
+				
+					//block level for holding factors
+					var factorString = "";
+					
+					//make input integer absolutevalue
+					inputInterger = Math.abs(inputInterger);
+					
+					//looping through for factors:
+					for(var i =2; i < inputInterger; ++i){
+						if(inputInterger%i == 0){
+							// input has factors
+							factorString+= i +"";
+						
+						}//end if
+					}//end for
+					
+					switch(factorString){
+						case"":
+							factorPara.innerHTML=inputInterger+" is prime.";
+						
+							break;
+						default:
+							factorPara.innerHTML="Factors for"+inputInterger+"are:" + factorString;
+						
+						
+							break;
+					}
+				}//end if
+
+			}//end function findFactors
+			function findExponent(){
+				//variables:
+				baseInteger=document.getElementById("baseTextbox").value;
+				powerInteger=document.getElementById("powerTextbox").value;
+				resultInteger= Math.pow(baseInteger,powerInteger);
+				
+				//display
+				document.getElementById("expResult").innerHTML="result:"+resultInteger;
+			
+			
+			}//end function findExponent
+		
+		</script>
+	</head>
+	<body>
+		<h1>Kyama Events and Functions<h1>
+		<h1>Odd or Even?</h1>
+			<p>Please enter a Non zero integer:<input type="text" 
+			id="inputTextbox"/></p>
+			<p><input type="button" id="oddButton" value="Odd or Even?"
+			onClick ="oddOrEven()"/></p>
+			<p id="oddPara"></p>
+			<p><input type="button" id="factorButton" value="Find Factors"
+			onClick ="findFactors()"/></p>
+			<p id="factorPara"></p>
+		
+		<h1>Find Exponenet</h1>
+		<p>
+		Please enter an integer between 0 and 100 : Enter Base :
+		<input type="number" min="0" max="100" id="baseTextbox"/>
+		Enter power:
+		<input type="number" min="0" max="100" id="powerTextbox"/>
+		
+		<input type="button" id="expButton" value="Exponent"
+		onClick ="findExponent()"/>
+		<span id="expResult"></span>
+		</p>
+
+	</body>
+</html>
