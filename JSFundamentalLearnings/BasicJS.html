@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> JavaScript Fundamentals-1</title>
+	<meta charset="utf-8"/>
+	<script type="text/javascript">
+	function change(){
+		var myValue=document.getElementById("myText").value;
+		if (myValue.length==0){
+			alert("eneter a valid input");
+			return;
+		}//end if
+		var myHead=document.getElementById("head");
+		myHead.innerHTML=myValue+"  <-this changed yey!!";
+	
+	}//end function change
+	</script>
+</head>
+<body>
+	<h1 id="head">Change the heading</h1>
+	<input type="textbox" id="myText"/>
+	<input type="button" id="click" value="curious??" onClick="change()"/>
+
+</body>
+</html>
