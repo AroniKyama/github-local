@@ -11,7 +11,12 @@
 			*/
 			
 			var inValue=document.getElementById("inValue").value;
-			inValue=parseInt(inValue);
+			//here isNaN check if it is a number or not
+			//if the input is number then it is parsed as integer
+			if(!isNaN(inValue)){
+				inValue=parseInt(inValue);
+			}
+			//inValue=parseInt(inValue);
 			var result=(typeof inValue);
 			document.getElementById("resultPara").innerHTML="it is of data type "+result;
 			}
