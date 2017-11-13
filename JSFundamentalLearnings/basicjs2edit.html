@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>learning fundamentals</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+		function getDataType(){
+			/*when you are wanting to know the data type and entering any value
+			all the things you've enetered is default considered as string,so if
+			you parse it as integer what ever you give is considered as integer
+			*/
+			
+			var inValue=document.getElementById("inValue").value;
+			inValue=parseInt(inValue);
+			var result=(typeof inValue);
+			document.getElementById("resultPara").innerHTML="it is of data type "+result;
+			}
+		</script>
+	</head>
+	<body>
+		<h3>learn data type basics</h3>
+		<label>enter a value</label>
+		<input type="text" id="inValue"/>
+		<input type="button" value="data type" id="dataTy" onclick="getDataType()"/>
+		<p id="resultPara"></p>
+		
+	</body>
+</html>
