@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>function examples</title>
+	<script type="text/javascript"/>
+		function hello(){
+			var name;
+			name=document.getElementById("name").value;
+			document.getElementById("helloPara").innerHTML="hello "+name;
+		}
+			function age(){
+			var age=document.getElementById("age").value;
+			var result=(age)*365*24*60*60;
+			document.getElementById("agePara").innerHTML="you lived for "+result+ "seconds";
+		}
+		function bands(){
+		var playlist=["AR REHMAN","HARRIS JAYRAJ","MANI SHARMA"];
+	
+		for(var i=0 ;i < playlist.length ;++i){
+		document.getElementById("bandPara").innerHTML="now available: "+ playlist[i]+"<br>";
+		}
+		
+		}
+		
+	</script>
+</head>
+<body>
+	<h2>let's talk to each other</h2>
+	<label>whats your name:</label>
+	<input type="text" id="name"/>
+	<input type="submit" value="click me" onClick="hello()"/>
+	<p id="helloPara"></p>
+	
+	
+	<label>whats your age:</label>
+	<input type="text" id="age"/>
+	<input type="submit" value="click me" onClick="age()"/>
+	<p id="agePara"></p>
+	
+	
+	<label>know the available playlists</label>
+	<input type="submit" value="click me" onClick="bands()"/>
+	<p id="bandPara"></p>
+	
+	
+	
+</body>
+</html>
