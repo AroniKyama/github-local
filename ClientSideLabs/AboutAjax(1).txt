@@ -1,0 +1,18 @@
+<p>AJAX = Asynchronous JavaScript and XML.</p>
+<p>
+AJAX is a technique for creating fast and dynamic web pages. AJAX is about updating parts of a web page, without reloading the whole page.</p>
+<p>
+AJAX is based on internet standards, and uses a combination of:
+
+<li>XMLHttpRequest object (to retrieve data from a web server)
+<li>JavaScript/DOM (to display/use the data)</p>
+<p>
+XMLHttpRequest is a misleading name. You don't have to understand XML to use AJAX.
+</p>
+
+<p>What You Should Already Know about Ajax: </p>
+<p>1) Everything you learned in this class(HTML, JS, XML, XSLT, XML-DOM, and HTML-DOM). </p>
+<p> 2) It is going to be on your Exam.You should know Ajax for the hands on. </p>
+<p>3)You are your best AND ONLY help on your hands on exam. So, practice ahead. </p>
+
+

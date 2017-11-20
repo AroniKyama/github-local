@@ -1,0 +1,128 @@
+
+<head>
+	<style>
+		body {
+		margin 50px;}
+	</style>
+</head>
+<body >
+	<h1>jQuery and Ajax</h1>
+	<h2>Introduction</h2>
+
+	<p>jQuery is not a language, but it is a well written JavaScript code. As quoted on official jQuery website, &quot;it is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development&quot;. </p>
+
+	<h2>What is jQuery?</h2>
+
+	<p>jQuery is not a language, but it is a well written JavaScript code. As quoted on official jQuery website, &quot;it is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.&quot; </p>
+
+	<p>In order to work with jQuery, you should be aware of the basics of JavaScript, HTML and CSS. </p>
+
+	<p>It was released in January 2006 at BarCamp NYC by John Resig. </p>
+
+	<h4>Licensing</h4>
+
+	<p>It is free, open source software Dual-licensed under the MIT License and the GNU General Public License. Microsoft has integrated jQuery officially into its IDE Visual Studio 2010 and jQuery intellisense is available in Visual Studio 2010 now. </p>
+
+	<p>This is the first chapter of <a title="jQuery How to's ebook" href="http://www.itfunda.com/jquery-how-tos-ebook/Show/45">my jQuery ebook</a>. This ebook comes with easy to navigate demo app with source code and video tutorials. </p>
+
+	<h2>Why jQuery? </h2>
+
+	<p>jQuery is very compact and well written JavaScript code that increases the productivity of the developer by enabling them to achieve critical UI functionality by writing very small amount of code. </p>
+
+	<ul>
+	<li>It helps to improve the performance of the application </li>
+
+	<li>It helps to develop most browser compatible web page </li>
+
+	<li>It helps to implement UI related critical functionality without writing hundreds of lines of codes </li>
+
+	<li>It is fast </li>
+
+	<li>It is extensible -- jQuery can be extended to implement customized behavior </li>
+	</ul>
+
+	<p>Other advantages of jQuery are: </p>
+
+	<ul>
+	<li>No need to learn fresh new syntaxes to use jQuery, knowing simple JavaScript syntax is enough </li>
+
+	<li>Simple and cleaner code, no need to write several lines of codes to achieve complex functionality </li>
+	</ul>
+
+	<h2>Where to Download jQuery from?</h2>
+
+	<p>jQuery JavaScript file can be downloaded from jQuery <a title="http://www.jquery.com/" href="http://www.jquery.com/">Official website</a>.</p>
+
+	<h2>How to Use jQuery?</h2>
+
+	<p>jQuery usually comes as a single JavaScript file containing everything comes out of the box with jQuery. It can be included within a web page using the following mark-up: </p>
+
+	<h3>To Load Local jQuery File</h3>
+
+	<pre lang="html"><span class="code-keyword">&lt;</span><span class="code-leadattribute">script</span> <span class="code-attribute">type</span><span class="code-keyword">="</span><span class="code-keyword">text/javascript"</span> <span class="code-attribute">src</span><span class="code-keyword">="</span><span class="code-keyword">jQuery-1.4.1-min.js"</span><span class="code-keyword">&gt;</span><span class="code-keyword">&lt;/</span><span class="code-leadattribute">script</span>&gt;</pre>
+
+	<p>Ideally, this markup is kept in under <code>&lt;head&gt;&lt;/head&gt;</code> tag of your web page, however you are free to keep anywhere you want. </p>
+
+	<h4>Do I need to refer jQuery file both in Master page/base page/template page and content page?</h4>
+
+	<p>No, master page/base page/ template page basically helps to create consistent layout for the page in the application. In case you have referred the jQuery file in master page/base page/ template page that causes rendering the file in the browser, you do not need to refer jQuery file in the content page again.</p>
+
+	<p>In summary, there should not be more than one <code>&lt;script&gt;</code> tag with jQuery file reference in the source code of the rendered web page in the browser. </p>
+
+	<h4>What is the difference between jQuery-x.x.x.js and jQuery.x.x.x min.js?</h4>
+
+	<p>In terms of functionality, there is no difference between the <em>jQuery-x.x.x.js</em> and <em>jQuery-x.x.x-min.js</em> (also called minified version). However, this can play a vital role in the performance of the web page. </p>
+
+	<h4>How does it affect performance? </h4>
+
+	<p><em>jQuery-1.4.4.js</em> file size is 178 KB as against its minified version <em>jQuery-1.4.4-min.js</em> that is only 76.7 KB in size. So when your page loads in the client’s browser if you are not using minified version, it loads 178 KB file that takes more time to load than 76.7 KB. </p>
+
+	<h4>Which Version of jQuery File Should Be Used?</h4>
+
+	<p>In most of the recent releases so far, the core functionality of jQuery remains the same, however some more cool and better features are added. Ideally, you should use the latest jQuery files available on the jQuery.com website. By doing this, you ensure that your earlier functionality will still work and you can use new features available as part of the new release. </p>
+
+	<h2>Loading jQuery from CDN</h2>
+
+	<h3>What is CDN?</h3>
+
+	<p>CDN Stands for <strong>C</strong>ontent <strong>D</strong>istribution <strong>N</strong>etwork or also called <strong>C</strong>ontent <strong>D</strong>elivery <strong>N</strong>etwork is a group of computers placed at various points connected with network containing copies of data files to maximize bandwidth in accessing the data. In CDN, a client accesses a copy of data nearer to the client location rather than all clients accessing from the one particular server. This helps to achieve better performance of data retrieval by client. </p>
+
+	<p>There are two leading CDNs available that host jQuery files. </p>
+
+	<h4>Microsoft - To load jQuery from Microsoft AJAX CDN</h4>
+
+	<p>jQuery file can be loaded from Microsoft AJAX CDN. More details are available <a title="http://www.asp.net/ajaxlibrary/cdn.ashx" href="http://www.asp.net/ajaxlibrary/cdn.ashx">here</a>. You will need to keep the following tags in your page. </p>
+
+	<pre lang="html"><span class="code-keyword">&lt;</span><span class="code-leadattribute">script</span> <span class="code-attribute">type</span><span class="code-keyword">="</span><span class="code-keyword">text/javascript"</span> <span class="code-attribute">language</span><span class="code-keyword">="</span><span class="code-keyword">Javascript"</span> 
+		<span class="code-attribute">src</span><span class="code-keyword">="</span><span class="code-keyword">http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.1.min.js"</span><span class="code-keyword">&gt;</span><span class="code-keyword">&lt;/</span><span class="code-leadattribute">script</span>&gt; </pre>
+
+	<p lang="jscript"><span class="Apple-style-span" style="FONT-WEIGHT: bold">Google - To load jQuery from Google Libraries API</span></p>
+
+	<p>A jQuery file can be loaded from <a title="http://code.google.com/apis/libraries/devguide.html" href="http://code.google.com/apis/libraries/devguide.html">Google CDN</a>. You will need to keep the following tag in your page. </p>
+
+	<pre lang="html"><span class="code-keyword">&lt;</span><span class="code-leadattribute">script</span> <span class="code-attribute">type</span><span class="code-keyword">="</span><span class="code-keyword">text/javascript"</span> <span class="code-attribute">language</span><span class="code-keyword">="</span><span class="code-keyword">Javascript"</span> 
+			<span class="code-attribute">src</span><span class="code-keyword">="</span><span class="code-keyword">https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"</span><span class="code-keyword">&gt;</span>
+	<span class="code-keyword">&lt;/</span><span class="code-leadattribute">script</span>&gt;</pre>
+
+	<h3>Why to Load jQuery File from CDN?</h3>
+
+	<p>You may ask that if we can load the jQuery file from our own server, why load it from the CDNs. The answer is logical and very simple. The browser behavior is that whenever it loads any webpage, it keeps related files (e.g., JavaScript file, CSS file and Images) used for that page into its cache (also called history). When next time the user browses any web page, browser loads only those files that are new or modified and is not available in the browser cache or history. In this way, browser improves its performance and loads the page.</p>
+
+	<p>The possibility is that if more and more websites are using CDNs, the user might have already browsed some other web pages that are using CDNs jQuery file and that file may have into browser cache; so when user browses your page and you are also using CDNs file, the older cached version of jQuery file will be used. In this way, your page will load faster as browser will not have to load the jQuery file for your page again. </p>
+
+	<p>The benefits are as follows:</p>
+
+	<ol>
+	<li>Faster page load as jQuery file need not be downloaded </li>
+
+	<li>Saves your bandwidth as jQuery file is not loaded from your server </li>
+
+	<li>Scalable - generally CDNs place these files on the servers located at different geographical locations of the world so that they load faster so irrespective of from where your user is browsing your page, your application runs well. </li>
+	</ol>
+
+	<h4>What if the latest jQuery version is available and I am still referring to the older version of jQuery file from CDNs?</h4>
+
+	<p>Do not worry about it, it’s a general promise made by CDNs that they will remain hosting the older version of the files on the same location where they had initially released; so even if newer version of the files are released, the older version remains there on the CDNs and your web page still works. </p>
+
+
+</body>
