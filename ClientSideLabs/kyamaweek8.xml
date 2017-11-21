@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="1.0" href="kyamaweek8.xsl"?>
+<note>
+	<heading>My Wednesday TO-Do List</heading>
+	<tasks>
+		<todo>6:00 AM wakeup</todo>
+		<todo>7:00 AM to 8:00 am Read for CIS 5611</todo>
+		<todo>8:00 AM to 9:00 Prepare food </todo>
+		<todo>10:00 AM catch bus to Lee's Summit</todo>
+		<todo>11:15 AM to 2:15 PM Class</todo>
+		<todo>2:30 PM Catch bus to Warrensburg</todo>
+	</tasks>
+</note>
