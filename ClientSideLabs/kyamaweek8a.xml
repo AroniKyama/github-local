@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="1.0" href="kyamaweek8a.xsl"?>
+<greetings>
+	<english>Hello</english>
+	<hindi>Namaskar</hindi>
+	<french>Bonjour</french>
+	<german>Guten Tag</german>
+	<spanish>Hola</spanish>
+	<heading>Hello From Kyama</heading>
+</greetings>
