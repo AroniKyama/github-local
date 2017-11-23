@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casinos>
+	<casino>
+		<name>Pechanga Resort And Casino</name>
+		<city>Temecula</city>
+		<state>California</state>
+	</casino>
+		<casino><name>Mohegan Sun</name>
+		<city>Uncasville</city>
+		<state>Connecticut</state>
+	</casino>
+	<casino>
+		<name>Foxwoods Resort Casino</name>
+		<city>Mashantucket</city>
+		<state>Connecticut</state>
+	</casino>
+	<casino>
+		<name>L'Auberge Casino Resort</name>
+		<city>Lake Charles</city>
+		<state>Louisiana</state>
+	</casino>
+	<casino>
+		<name>Hard Rock Hotel and Casino Biloxi</name>
+		<city>Biloxi</city>
+		<state>Mississippi</state>
+	</casino>
+		<casino><name>Harrah's Resort Southern California</name>
+		<city>Valley Center</city>
+		<state>California</state>
+	</casino>
+	<casino>
+		<name>Borgata Hotel Casino And Spa</name>
+		<city>Atlantic City</city>
+		<state>New Jeresy</state>
+	</casino>
+		<casino><name>Red Rock Casino Resort And Spa</name>
+		<city>Las Vegas</city>
+		<state>Nevada</state>
+	</casino>
+		<casino><name>French Lick Resort</name>
+		<city>French Lick</city>
+		<state>Indiana</state>
+	</casino>
+	<casino>
+		<name>Thunder Valley Casino Resort</name>
+		<city>Lincoln</city>
+		<state>California</state>
+	</casino>
+</casinos>

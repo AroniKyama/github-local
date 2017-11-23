@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travelCruises>
+	<familyCruise>
+		<company>Carnival Cruise Lines</company>
+		<name>4 Night Western Caribbean</name>
+		<cruiseLiner>Carnival Sensation</cruiseLiner>
+		<departing>Miami, Florida</departing>
+		<portsOfCall>Key West, Florida; Cozumel, Mexico</portsOfCall>
+		<interior>$209 </interior>
+		<oceanview>$254 </oceanview>
+		<balcony>$434 </balcony>
+		<suite>$544 </suite>
+	</familyCruise>
+	<familyCruise>
+		<company>Royal Caribbean</company>
+		<cruiseLiner>Adventure of the Seas</cruiseLiner>
+		<name>7 Night Southern Caribbean</name>
+		<departing>San Juan, Puerto Rico</departing>
+		<portsOfCall>Philipsburg, St. Maarten; Basseterre, St. Kitts; St. John's, Antigua; Castries, St. Lucia; Bridgetown, Barbados;</portsOfCall>
+		<interior>$507 </interior>
+		<oceanview>$507 </oceanview>
+		<balcony>$642 </balcony>
+		<suite>$1,093 </suite>
+	</familyCruise>
+	<familyCruise>
+		<company>Disney Cruise Lines</company>
+		<name>7 Night Western Caribbean</name>
+		<cruiseLiner>Disney Fantasy</cruiseLiner>
+		<departing>Miami, Florida</departing>
+		<portsOfCall>Ocho Rios, Jamaica; George Town, Grand Cayman; Cozumel, Mexico; Nassau, Bahamas;</portsOfCall>
+		<interior>$409 </interior>
+		<oceanview>$529 </oceanview>
+		<balcony>$409 </balcony>
+		<suite>$1,269 </suite>
+	</familyCruise>
+	<familyCruise>
+		<company>Norwegian Cruise Line</company>
+		<name>7 Night Western Caribbean</name>
+		<cruiseLiner>Norwegian Escape</cruiseLiner>
+		<departing>Miami, Florida</departing>
+		<portsOfCall>Roatan (Isla Roatan), Bay Islands; Honduras, Harvest; Caye, Belize; Costa Maya (Mahahual), Mexico; Cozumel, Mexico;</portsOfCall>
+		<interior>$349 </interior>
+		<oceanview>$499 </oceanview>
+		<balcony>$599 </balcony>
+		<suite>$899 </suite>
+	</familyCruise>
+</travelCruises>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carRental>
+	<car>
+		<type make = "Mitsubishi Mirage (or similar)">Economy </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$206  per week</rate>
+	</car>
+	<car>
+		<type make = "Nissan Versa (or similar)">Compact </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$206  per week</rate>
+	</car>
+	<car>
+		<type make = "Hyundai Elantra (or similar)">Mid-Size </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$207  per week</rate>
+	</car>
+	<car>
+		<type make = "Audi A3 (or similar)">Standard </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$208  per week</rate></car>
+	<car>
+		<type make = "Chevrolet Impala or similar">Full-Size </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$209  per week</rate>
+	</car>
+	<car>
+	<type make = "Nissan Altima (or similar)">Premium </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$281  per week</rate>
+	</car>
+	<car>
+		<type make = "Cadillac XTS (or similar)">Luxury Car </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$32  per day</rate>
+	</car>
+	<car>
+	<type make = "Ford Mustang (or similar)">Convertible </type>
+	<capacity>Up to 4 people</capacity>
+	<rate>$33  per day</rate>
+	</car>
+	<car>
+		<type make = "Nissan Rogue (or similar)">Mid-Size SUV </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$243  per week</rate>
+	</car>
+	<car>
+		<type make = "Audi Q3 (or similar)">Standard SUV </type>
+		<capacity>Up to 5 people</capacity>
+		<rate>$36  per day</rate>
+	</car>
+	<car>
+		<type make = "Chevy Tahoe (or similar)">Full-Size SUV </type>
+		<capacity>Up to 7 people</capacity>
+		<rate>$63  per day</rate>
+	</car>
+	<car>
+		<type make = "Dodge Grand Caravan (or similar)">Mini Van </type>
+		<capacity>Up to 7 people</capacity>
+		<rate>$335  per week</rate>
+	</car>
+</carRental>

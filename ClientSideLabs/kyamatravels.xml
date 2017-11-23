@@ -1,0 +1,52 @@
+<?xml version = "1.0"?>
+<KyamaTravels>
+	<cruises>
+		<cruiseDetails>
+			<cruiseName>Classic Southern Caribbean</cruiseName>
+			<days>7</days>
+			<ship type= "Luxury">Caribbean Princess</ship>
+			<startsFrom>San Juan</startsFrom>
+			<interior>549</interior>
+			<oceanView>699</oceanView>
+			<miniSuite>899</miniSuite>
+		</cruiseDetails>
+		<cruiseDetails>
+			<cruiseName>Eastern Caribbean</cruiseName>
+			<days>7</days>
+			<ship type= "Luxury">Grand Princess</ship>
+			<startsFrom>Ft. Lauderdale</startsFrom>
+			<interior>549 </interior>
+			<oceanView>799 </oceanView>
+			<miniSuite>999 </miniSuite>
+		</cruiseDetails>
+		<cruiseDetails>
+			<cruiseName>Western Caribbean</cruiseName>
+			<days>7</days>
+			<ship type= "Luxury">Crown Princess</ship>
+			<startsFrom>Ft. Lauderdale</startsFrom>
+			<interior>599 </interior>
+			<oceanView>749 </oceanView>
+			<miniSuite>899 </miniSuite>
+		</cruiseDetails>
+		<cruiseDetails>
+			<cruiseName>Panama Canal</cruiseName>
+			<days>10</days>
+			<ship type= "Ocean Cruise">Island Princess</ship>
+			<startsFrom>Ft. Lauderdale</startsFrom>
+			<interior>1,399 </interior>
+			<oceanView>1,599 </oceanView>
+			<miniSuite>1,999 </miniSuite>
+		</cruiseDetails>
+	</cruises>
+	<carRentals> 
+		<car Name="Acura" Rental="$99" Color="Red"/>
+		<car Name="Alfa Romeo" Rental="$159" Color="Black"/>
+		<car Name="Aston Martin" Rental="$179" Color="Black"/>
+		<car Name="Audi" Rental="$129" Color="Pearl"/>
+		<car Name="Bentley" Rental="$129" Color="Black"/>
+		<car Name="BMW" Rental="$99" Color="Black"/>
+		<car Name="Bugatti" Rental="$249" Color="Black"/>
+		<car Name="Buick" Rental="$99" Color="Pearl"/>
+	</carRentals>
+</paravastuTravels>
+
